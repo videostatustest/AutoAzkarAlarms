@@ -1,4 +1,4 @@
-package com.mobilesrvs.autoazkaralarm;
+package com.yokoapps.alarmzeker;
 
 import java.util.ArrayList;
 

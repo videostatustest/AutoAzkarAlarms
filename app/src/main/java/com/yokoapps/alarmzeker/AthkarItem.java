@@ -1,4 +1,4 @@
-package com.mobilesrvs.autoazkaralarm;
+package com.yokoapps.alarmzeker;
 
 public class AthkarItem {
 

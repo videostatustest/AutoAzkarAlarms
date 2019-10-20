@@ -1,4 +1,4 @@
-package com.mobilesrvs.autoazkaralarm;
+package com.yokoapps.alarmzeker;
 
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;

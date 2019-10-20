@@ -1,4 +1,4 @@
-package com.mobilesrvs.autoazkaralarm;
+package com.yokoapps.alarmzeker;
 
 import java.util.ArrayList;
 
@@ -7,7 +7,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 public class ItemListBaseAdapter extends BaseAdapter {

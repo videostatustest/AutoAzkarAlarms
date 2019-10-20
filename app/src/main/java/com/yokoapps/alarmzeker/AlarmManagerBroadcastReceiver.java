@@ -1,4 +1,4 @@
-package com.mobilesrvs.autoazkaralarm;
+package com.yokoapps.alarmzeker;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -15,7 +15,6 @@ import android.media.MediaPlayer;
 import android.os.Vibrator;
 
 import androidx.core.app.NotificationCompat;
-import androidx.core.app.NotificationManagerCompat;
 
 
 public class AlarmManagerBroadcastReceiver extends BroadcastReceiver {

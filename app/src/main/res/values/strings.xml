@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">منبه الاذكار الالي</string>
-    <string name="ads_idt">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="ads_full_idt">ca-app-pub-3940256099942544/1033173712</string>
-    <string name="ads_id">ca-app-pub-2790398212285244/2308503815</string>
-    <string name="ads_full_id">ca-app-pub-2790398212285244/378523701</string>
+    <string name="app_name">اذكار - منبه صوتي</string>
+    <string name="ads_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="ads_full_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="ads_idt">ca-app-pub-2790398212285244/2308503815</string>
+    <string name="ads_full_idt">ca-app-pub-2790398212285244/378523701</string>
     <string name="medium_text">اذكركم بحديث الحبيب صلى الله عليه وسلم العظيم عن الذكر, عندما قال: ((الا اخبركم بخير اعمالكم وازكاها عند مليككم, وارفعها في درجاتكم, وخير لكم من إنفاق الذهب والفضة, ومن ان تلقوا عدوكم فتضربوا اعناقهم, ويضربوا اعناقكم{ قالوا:بلى يا رسول الله. قال :ذكر الله عز وجل))</string>
     <string name="title_activity_add_athkar">AddAthkarActivity</string>
     <string name="hello_world">Hello world!</string>
