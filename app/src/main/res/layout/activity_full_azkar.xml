@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@drawable/bg1"
+    tools:context="com.mobilesrvs.autoazkaralarm.FullAzkarActivity" >
+<com.google.android.gms.ads.AdView
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/adView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    ads:adUnitId="@string/ads_id"
+    ads:adSize="BANNER"/>
+<ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/banner"        
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/txtFullTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:padding="20dp"
+        android:gravity="center"
+        android:text="أذكر الله"
+        android:textColor="#fff"
+        android:background="@drawable/rounded_blue_text"
+        android:textSize="25sp" />
+    
+</RelativeLayout>

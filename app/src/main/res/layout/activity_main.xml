@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg1"   
+    android:orientation="vertical"
+    tools:context="com.mobilesrvs.autoazkaralarm.MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageViewMainPage"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/banner" />
+
+ <Button
+        android:id="@+id/buttonAzkarSetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/rounded_blue"
+        android:text="أعدادات التنبيه"
+        android:textColor="#fff"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/buttonAzkarList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/rounded_blue"
+        android:text="مجموعة الاذكار الصوتية مع الذكر"
+        android:textColor="#fff" 
+        android:textSize="22sp"/>
+
+    <Button
+        android:id="@+id/buttonApps"
+       android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/rounded_blue"
+        android:text="برامج مجانية اخرى"
+        android:textColor="#fff" 
+        android:textSize="22sp"/>
+
+    <Button
+        android:id="@+id/buttonAppsShare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/rounded_blue"
+        android:text="مشاركة البرنامج"
+        android:textColor="#fff" 
+        android:textSize="22sp"/>
+    
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/ads_id" />
+
+</LinearLayout>
