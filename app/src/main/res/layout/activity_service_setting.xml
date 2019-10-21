@@ -3,7 +3,6 @@
     xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-     android:background="@drawable/bg1"
     >
 <com.google.android.gms.ads.AdView
     xmlns:ads="http://schemas.android.com/apk/res-auto"
@@ -16,14 +15,12 @@
 
     <Spinner
         android:id="@+id/spinnerSSState"
-        style="@android:style/Widget.Spinner.DropDown"
         android:layout_width="220dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/txtSSTime"
         android:layout_alignRight="@+id/spinnerSSTIME"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="10dp"
-        android:theme="@style/mySpinnerItemStyle" />
+        android:layout_marginTop="10dp" />
 
     <TextView
         android:id="@+id/txtSSTitle"
@@ -32,7 +29,6 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:textColor="#fff" 
         android:text="أعدادات التذكير"
         android:textAppearance="?android:attr/textAppearanceLarge"
         />
@@ -44,20 +40,17 @@
         android:layout_alignRight="@+id/txtSSTime"
         android:layout_below="@+id/txtSSTitle"
         android:layout_marginTop="14dp"
-        android:textColor="#fff" 
         android:text="أختيار وقت التذكير:"
         android:textAppearance="?android:attr/textAppearanceMedium"
          />
 
     <Spinner
         android:id="@+id/spinnerSSTIME"
-        style="@android:style/Widget.Spinner.DropDown"
         android:layout_width="220dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/txtSSState"
         android:layout_alignLeft="@+id/btn_SSok"
-        android:layout_marginTop="22dp"
-        android:theme="@style/mySpinnerItemStyle" />
+        android:layout_marginTop="22dp"/>
 
     <TextView
         android:id="@+id/txtSSTime"
@@ -67,7 +60,6 @@
         android:layout_below="@+id/spinnerSSTIME"
         android:layout_marginRight="16dp"
         android:text="حالة التذكير:"
-        android:textColor="#fff" 
         android:textAppearance="?android:attr/textAppearanceMedium"
         />
 

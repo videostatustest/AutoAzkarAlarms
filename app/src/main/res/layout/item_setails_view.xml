@@ -6,8 +6,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content" 
     android:layout_margin="5dp"
-    android:padding="5dp"
-    android:background="@drawable/bg_parent_rounded_corner">
+    android:padding="5dp">
 
     <TextView
         android:id="@+id/itemDescription"
@@ -16,7 +15,7 @@
         android:layout_alignParentRight="true"
         android:layout_toRightOf="@+id/photo"
         android:padding="3dp"
-        android:textColor="#fff"
+
         android:text="Medium Text"
         android:textSize="17sp" />
 
