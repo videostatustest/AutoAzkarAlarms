@@ -288,12 +288,10 @@ public class AlarmManagerBroadcastReceiver extends BroadcastReceiver {
 		}
 
 	}
-	public static final String CHANNEL_ID = "AlarmManagerBroadcastReceiver";
-	public static String NOTIFICATION_ID = "notification-id" ;
-	public static String NOTIFICATION = "notification" ;
+	public static final String CHANNEL_ID = "AlarmManagerBroadcastReceiverYokoApps";
 
 	public void Notification(Context context, String message) {
-		String strtitle = "منبه الاذكار الالي";
+		String strtitle = "اذكار - منبه صوتي";
 		// Create an explicit intent for an Activity in your app
 
 		NotificationManager notificationManager = (NotificationManager) context.getSystemService(Context. NOTIFICATION_SERVICE ) ;
@@ -305,7 +303,7 @@ public class AlarmManagerBroadcastReceiver extends BroadcastReceiver {
 		PendingIntent pendingIntent = PendingIntent.getActivity(context, 0, intent, 0);
 
 		NotificationCompat.Builder builder = new NotificationCompat.Builder(context, CHANNEL_ID)
-				.setSmallIcon(R.drawable.ic_launcher)
+				.setSmallIcon(R.mipmap.ic_launcher)
 				.setContentTitle(strtitle)
 				.setContentText(message)
 				.setPriority(NotificationCompat.PRIORITY_DEFAULT)
@@ -315,8 +313,8 @@ public class AlarmManagerBroadcastReceiver extends BroadcastReceiver {
 
 
 		if (android.os.Build.VERSION. SDK_INT >= android.os.Build.VERSION_CODES. O ) {
-			int importance = NotificationManager. IMPORTANCE_HIGH ;
-			NotificationChannel notificationChannel = new NotificationChannel( CHANNEL_ID , "NOTIFICATION_CHANNEL_NAME" , importance) ;
+			int importance = NotificationManager. IMPORTANCE_LOW ;
+			NotificationChannel notificationChannel = new NotificationChannel( CHANNEL_ID , "AlarmManagerBroadcastReceiverYokoApps" , importance) ;
 			assert notificationManager != null;
 			notificationManager.createNotificationChannel(notificationChannel) ;
 		}

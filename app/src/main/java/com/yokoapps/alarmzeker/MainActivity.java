@@ -70,11 +70,11 @@ public class MainActivity extends Activity {
 				try {
 					try {
 						startActivity(new Intent(Intent.ACTION_VIEW, Uri
-								.parse("market://developer?id=mobilesrvs")));
+								.parse("market://developer?id=YokoApps")));
 					} catch (android.content.ActivityNotFoundException anfe) {
 						startActivity(new Intent(
 								Intent.ACTION_VIEW,
-								Uri.parse("http://play.google.com/store/apps/developer?id=mobilesrvs")));
+								Uri.parse("http://play.google.com/store/apps/developer?id=YokoApps")));
 					}
 				} catch (Exception ex) {
 				}
@@ -89,9 +89,9 @@ public class MainActivity extends Activity {
 				try {
 					Intent i = new Intent(Intent.ACTION_SEND);
 					i.setType("text/plain");
-					i.putExtra(Intent.EXTRA_SUBJECT, "منبه الاذكار الالي");
-					String sAux = "Auto Athkar Alarm: ";
-					sAux = "https://play.google.com/store/apps/details?id=com.mobilesrvs.autoazkaralarm";
+					i.putExtra(Intent.EXTRA_SUBJECT, "اذكار - منبه صوتي");
+					String sAux = "اذكار - منبه صوتي : ";
+					sAux = "https://play.google.com/store/apps/details?id=com.yokoapps.alarmzeker";
 					i.putExtra(Intent.EXTRA_TEXT, sAux);
 					startActivity(Intent.createChooser(i, "مشاركة عبر.."));
 

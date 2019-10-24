@@ -19,8 +19,6 @@ import android.widget.Toast;
 public class ServiceSettingActivity extends Activity{
 	private Spinner spinnerSSState, spinnerSSTIME;
 	private AlarmManagerBroadcastReceiver alarm;
-	String tonePath;
-	Button btn_setrengtone;
 
 	public void addItemsOnspinnerSSTIME() {
 		SharedPreferences pref = this.getSharedPreferences("autoazkaralarm", 0);

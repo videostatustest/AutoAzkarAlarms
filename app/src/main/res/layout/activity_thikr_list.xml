@@ -12,12 +12,18 @@
     android:layout_alignParentBottom="true"
     ads:adUnitId="@string/ads_id"
     ads:adSize="BANNER"/>
-
+    <ImageView
+        android:id="@+id/imageViewMainPagel"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/banner" />
     <ListView
         android:id="@+id/list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="155dp"
         android:layout_marginBottom="50dp"
         android:cacheColorHint="#fff" >
 
